@@ -1,0 +1,84 @@
+body {
+	background: url('../shoppinglist/mainimage.jpg') no-repeat center center fixed;
+	background-size: cover;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	width: 720px;
+	height: 720px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.main-list {
+	height: 100%;
+	width: 100%;
+	background-image: url('../shoppinglist/shoppinglist.jpg');
+	;
+}
+.input-field {
+	margin: 172px 123px;
+    position: absolute;
+    height: 36px;
+    font-size: 20px;
+    width: 327px;
+}
+.item-button {
+	margin: 171px 462px;
+    position: absolute;
+    height: 41px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: red;
+    opacity: .82;
+}
+.item-button:hover {
+	opacity: 1;
+	cursor: pointer;
+
+}
+
+.list {
+	position: absolute;
+	list-style: none;
+	margin: 232px 70px;
+}
+
+.list li {
+	height: 37px;
+    font-size: 26px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    width: 400px;
+}
+
+.checkboxes {
+	width: 27px;
+    height: 20px;
+    margin-left: -10px;
+    margin-right: 10px;
+    margin-top: 1px;
+}
+
+.delete-button {
+	float: right;
+	margin-top: -3px;
+
+}
+
+.delete-button:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.delete-button >img{
+	height: 30px;
+	width: 30px;
+}
+
+.list li:nth-child(odd){
+	text-decoration: line-through;
+}
