@@ -1,11 +1,4 @@
 $(document).ready(function() {
-
-
-//$('.item-button').click(function(){
-//	$('.list').append($('<li>'{
-//		text: $('.input-field').val()
-//	});
-//	$('.list').append($('.checkboxes'));
 	
 //When a user enters an item, then clicks the "add item" button, append that item into an unordered list
 	$('.item-button').click(function(){
@@ -24,15 +17,5 @@ $(document).ready(function() {
 
 	});
 
-//$('.item-button').click(function(){
-//		$('.list').append($('.delete-button'));
-
-//	});
-
-
-
-//$('.list').on('click', 'li', function(event){
-  // fires when any LIs are clicked on
-  // including LIs that aren't on the page when it is initially loaded
 });
 
